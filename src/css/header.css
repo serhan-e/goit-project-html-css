@@ -77,4 +77,27 @@
   border: none;
   cursor: pointer;
   color: var(--color-white);
+  flex-direction: column;
+  gap: 5px;
+  padding: 4px;
+}
+
+@media (max-width: 1279px) {
+  .nav,
+  .btn-primary {
+    display: none;
+  }
+
+  .burger-btn {
+    display: flex;
+    margin-left: auto;
+  }
+}
+
+.burger-btn span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: var(--color-white);
+  border-radius: 2px;
 }
