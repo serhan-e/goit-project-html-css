@@ -1,0 +1,250 @@
+.order {
+  background-color: #576f35;
+  padding: 80px 0px;
+}
+.order-title-conteiner {
+  max-width: 335px;
+  padding-bottom: 40px;
+}
+.order-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.08333;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  padding-bottom: 20px;
+}
+.order-title-span {
+  color: #d4bfc4;
+}
+.order-title-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #fbfbfb;
+}
+.form-container {
+  background-color: #fbfbfb;
+  border-radius: 30px;
+  padding: 40px 20px;
+  max-width: 335px;
+  margin-bottom: 20px;
+}
+.form-title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+  padding-bottom: 40px;
+}
+.form-span-frst {
+  color: #7a3145;
+}
+.form-span-scnd {
+  color: #576f35;
+}
+.order-input,
+.order-textarea {
+  border: 1px solid #858585;
+  border-radius: 30px;
+  padding: 14px 16px;
+  width: 100%;
+  outline: none;
+}
+.order-textarea {
+  border-radius: 15px;
+  height: 92px;
+  resize: none;
+}
+.order-input:focus,
+.order-textarea:focus {
+  border-color: #7a3145;
+}
+
+.order-input:not(:placeholder-shown):invalid {
+  border-color: red;
+}
+.order-input:not(:placeholder-shown):valid {
+  border-color: green;
+}
+.text-valid,
+.text-invalid {
+  font-size: 14px;
+  padding-left: 20px;
+  margin-top: 4px;
+  display: none;
+}
+
+.text-valid {
+  color: green;
+}
+
+.text-invalid {
+  color: red;
+}
+.order-input:not(:placeholder-shown):valid ~ .text-valid {
+  display: block;
+}
+.order-input:not(:placeholder-shown):invalid ~ .text-invalid {
+  display: block;
+}
+.order-field {
+  padding-bottom: 16px;
+}
+.order-input::placeholder,
+.order-textarea::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42857;
+  text-align: left;
+  color: #141414;
+}
+.order-comment {
+  padding-bottom: 20px;
+}
+.button-send {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 30px;
+  padding: 16px;
+  background: #7a3145;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.11111;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  border: none;
+}
+
+.button-send:is(:hover, :focus) {
+  color: #7a3145;
+  background-color: thistle;
+}
+.social-container {
+  border-radius: 30px;
+  padding: 40px 20px;
+  width: 100%;
+  background: #7a3145;
+}
+.order-img {
+  padding-bottom: 20px;
+}
+.order-social-img {
+  border-radius: 15px;
+}
+.social-networks {
+  width: 100%;
+}
+.social-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #d4bfc4;
+  padding-bottom: 16px;
+}
+a {
+  text-decoration: none;
+}
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
+}
+.social-item-sign,
+.social-item-link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+@media screen and (min-width: 768px) {
+  .order {
+    padding: 100px 0;
+  }
+  .order-title-conteiner {
+    max-width: 640px;
+    padding-bottom: 52px;
+  }
+  .order-title {
+    font-size: 64px;
+    padding-bottom: 24px;
+  }
+  .order-title-text {
+    font-size: 16px;
+  }
+  .form-social-container {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  .form-container {
+    padding: 72px 100px;
+    max-width: 100%;
+    margin-bottom: 32px;
+  }
+  .form-title {
+    font-size: 32px;
+    padding-bottom: 52px;
+    font-weight: 600;
+  }
+  .order-textarea {
+    height: 92px;
+  }
+  .order-comment {
+    padding-bottom: 24px;
+  }
+  .order-input,
+  .order-textarea {
+    padding: 16px 14px;
+  }
+  .social-container {
+    padding: 52px;
+    width: 100%;
+  }
+  .order-img {
+    padding-bottom: 52px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .order-title-conteiner {
+    max-width: 751px;
+  }
+  .form-social-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    max-width: 1080px;
+  }
+
+  .form-container {
+    padding: 52px 48px;
+    max-width: 524px;
+    margin: 0;
+  }
+  .social-container {
+    padding: 52px 48px;
+    max-width: 524px;
+  }
+  .order-img {
+    padding-bottom: 80px;
+  }
+  .social-networks {
+    max-width: 386px;
+  }
+  .social-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
