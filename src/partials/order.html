@@ -1,8 +1,122 @@
-<section class="order"></section>
-<picture>
-    <source media="(min-width: 1280px)"
-        srcset="src/images/cooking-desktop.jpg 1x, src/images/cooking-desktop@2x.jpg 2x" />
-    <source media="(min-width: 768px)" srcset="src/images/cooking-tablet.jpg 1x, src/images/cooking-tablet@2x.jpg 2x" />
-    <img srcset="src/images/cooking-mobile.jpg 1x, src/images/cooking-mobile@2x.jpg 2x"
-        src="src/images/cooking-mobile.jpg" alt="Cooking" />
-</picture>
+<link rel="stylesheet" href="src/css/order.css" />
+<section class="order">
+  <div class="container">
+    <div class="order-title-conteiner">
+      <h2 class="order-title">
+        Fresh <span class="order-title-span">Harvest</span> Box has got you
+        covered
+      </h2>
+      <p class="order-title-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
+    </div>
+    <div class="form-social-container">
+      <div class="form-container">
+        <p class="form-title">
+          Ordering <span class="form-span-frst">from us</span> is quick and
+          easy! Fill out <span class="form-span-scnd">the form</span> below and
+          we will contact you !
+        </p>
+        <form class="order-form">
+          <div class="order-field">
+            <label for="user-name" class="visually-hidden">Full Name</label>
+            <input
+              class="order-input"
+              type="text"
+              name="user-name"
+              placeholder="Full Name"
+              id="user-name"
+            />
+          </div>
+          <div class="order-field">
+            <label for="email" class="visually-hidden">Email</label>
+            <input
+              class="order-input"
+              type="email"
+              name="email"
+              placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+            />
+            <p class="text-valid">Succes!</p>
+            <p class="text-invalid">Invalid email, try again</p>
+          </div>
+
+          <div class="order-comment">
+            <label for="user-comment" class="visually-hidden">Comment</label>
+            <textarea
+              class="order-textarea"
+              name="user-comment"
+              placeholder="Comment"
+              id="user-comment"
+            ></textarea>
+          </div>
+          <button class="button-send" type="submit">Send</button>
+        </form>
+      </div>
+      <div class="social-container">
+        <div class="order-img">
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                src/images/cooking-desktop.jpg    1x,
+                src/images/cooking-desktop@2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                src/images/cooking-tablet.jpg    1x,
+                src/images/cooking-tablet@2x.jpg 2x
+              "
+            />
+            <img
+              class="order-social-img"
+              srcset="
+                src/images/cooking-mobile.jpg    1x,
+                src/images/cooking-mobile@2x.jpg 2x
+              "
+              src="src/images/cooking-mobile.jpg"
+              alt="Cooking"
+            />
+          </picture>
+        </div>
+        <div class="social-networks">
+          <p class="social-text">Follow us on our social networks:</p>
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                class="social-item-link"
+                href="https://www.instagram.com/goit.turkiye/"
+                >instagram</a
+              >
+            </li>
+            <li class="social-item">
+              <p class="social-item-sign">/</p>
+            </li>
+            <li class="social-item">
+              <a
+                class="social-item-link"
+                href="https://www.facebook.com/people/GOIT-T%C3%BCrkiye/61558036560161/"
+                >facebook</a
+              >
+            </li>
+            <li class="social-item">
+              <p class="social-item-sign">/</p>
+            </li>
+            <li class="social-item">
+              <a
+                class="social-item-link"
+                href="https://m.youtube.com/@GoITTurkey"
+                >youtube</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
