@@ -106,7 +106,7 @@
   justify-content: center;
   font-weight: 600;
   font-size: 18px;
-  border: 5px solid #d4bfc4; 
+  border: 5px solid #d4bfc4;
 }
 @media screen and (min-width: 768px) {
   .hero-content {
@@ -159,8 +159,9 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  
   .hero-section {
-    flex-direction: row; 
+    flex-direction: row;
     height: 796px;
   }
 
@@ -185,7 +186,6 @@
     width: 50vw;
     height: 100%;
   }
-
   .how-container {
     flex-direction: row;
     height: 760px;
@@ -198,7 +198,7 @@
 
   .how-image-side img {
     max-width: 440px;
-    margin-left: auto;
+    margin-left: auto; 
   }
 
   .how-content-side {
