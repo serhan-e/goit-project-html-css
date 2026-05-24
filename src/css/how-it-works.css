@@ -1,22 +1,20 @@
 .how-container {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   width: 100vw;
   height: auto;
   margin: 0;
   padding: 0;
 }
-
 .how-image-side {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   background-color: #7a3145;
-  padding: 40px 20px; 
+  padding: 40px 20px;
   box-sizing: border-box;
 }
-
 .how-image-side img {
   width: 100%;
   height: auto;
@@ -24,7 +22,6 @@
   object-fit: cover;
   border-radius: 30px;
 }
-
 .how-content-side {
   display: flex;
   flex-direction: column;
@@ -34,7 +31,6 @@
   padding: 80px 20px;
   box-sizing: border-box;
 }
-
 .section-title {
   font-family: "Inter Tight", sans-serif !important;
   color: #fbfbfb;
@@ -47,12 +43,10 @@
   text-transform: uppercase;
   margin-bottom: 20px !important;
 }
-
 .accent {
   color: #d4bfc4 !important;
   -webkit-text-stroke: 0 !important;
 }
-
 .sub-text {
   font-family: "Inter Tight", sans-serif;
   color: #fbfbfb;
@@ -63,7 +57,6 @@
   height: auto;
   margin-bottom: 40px !important;
 }
-
 .step-list {
   list-style: none;
   display: flex;
@@ -71,7 +64,6 @@
   gap: 20px;
   counter-reset: item;
 }
-
 .step-item {
   background-color: #fbfbfb;
   color: #333;
@@ -80,10 +72,9 @@
   display: flex;
   align-items: center;
   gap: 24px;
-  width: 100% !important; 
+  width: 100% !important;
   min-height: auto;
 }
-
 .step-item p {
   font-family: "Inter Tight", sans-serif;
   font-size: 14px;
@@ -92,7 +83,6 @@
   max-width: 100%;
   -webkit-font-smoothing: antialiased !important;
 }
-
 .step-item::before {
   content: counter(item);
   counter-increment: item;
@@ -108,121 +98,65 @@
   font-size: 18px;
   border: 5px solid #d4bfc4;
 }
+
 @media screen and (min-width: 768px) {
-  .hero-content {
-    padding: 120px 40px;
-  }
-  
-  .hero-content h1 {
-    font-size: 76px;
-    width: 600px;
-  }
-  
-  .hero-content p {
-    font-size: 16px;
-    width: 603px;
-  }
-
-  .hero-image {
-    height: 600px;
-  }
-
   .how-image-side {
     padding: 100px 32px;
   }
-
   .how-content-side {
     padding: 100px 132px;
   }
-
   .section-title {
     font-size: 32px;
     margin-bottom: 24px !important;
   }
-
   .sub-text {
     font-size: 16px;
     line-height: 1.25;
     margin-bottom: 52px !important;
   }
-
   .step-list {
     gap: 24px;
   }
-
   .step-item {
     font-size: 16px;
   }
-  
   .step-item p {
     font-size: 16px;
   }
 }
+
 @media screen and (min-width: 1280px) {
-  
-  .hero-section {
-    flex-direction: row;
-    height: 796px;
-  }
-
-  .hero-content {
-    width: 50vw;
-    height: 100%;
-    justify-content: flex-start;
-    padding-left: calc((100vw - 1280px) / 2 + 100px);
-    padding-top: 156px;
-    gap: 128px;
-  }
-
-  .hero-content h1 {
-    width: 540px;
-  }
-
-  .hero-content p {
-    width: 472px;
-  }
-
-  .hero-image {
-    width: 50vw;
-    height: 100%;
-  }
   .how-container {
     flex-direction: row;
     height: 760px;
   }
-
   .how-image-side {
     width: 50vw;
     padding: 100px;
   }
-
   .how-image-side img {
     max-width: 440px;
-    margin-left: auto; 
+    margin-left: auto;
   }
-
   .how-content-side {
     width: 50vw;
     padding-left: 100px;
     padding-right: 100px;
   }
-
   .section-title {
     width: 440px;
     height: 96px;
   }
-
   .sub-text {
     width: 440px;
     height: 60px;
     margin-bottom: 104px !important;
   }
-
   .step-item {
     width: 440px !important;
     min-height: 76px;
   }
-
   .step-item p {
     max-width: 325px;
   }
