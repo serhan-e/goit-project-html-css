@@ -4,6 +4,8 @@
 @import "./footer.css";
 @import "./advertisement.css";
 @import "./vegetables.css";
+@import "./hero.css";
+@import "./how-it-works.css";
 
 :root {
   /* Colors */
