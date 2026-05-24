@@ -4,6 +4,8 @@
 @import "./footer.css";
 @import "./advertisement.css";
 @import "./vegetables.css";
+@import "./hero.css";
+@import "./how-it-works.css";
 
 :root {
   /* Colors */
@@ -31,6 +33,12 @@ body {
 }
 html {
   scroll-behavior: smooth;
+}
+.project-sections-wrapper {
+  width: 100vw;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 .container {
   width: 100%; /*320px için esneklik sağlar*/
@@ -119,3 +127,4 @@ button {
     padding: 0 32px;
   }
 }
+
