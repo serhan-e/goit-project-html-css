@@ -6,14 +6,6 @@
 
 ---
 
-## 📸 Ekran Görüntüleri
-
-| Desktop | Tablet | Mobile |
-|---------|--------|--------|
-| ![Desktop](src/images/preview-desktop.jpg) | ![Tablet](src/images/preview-tablet.jpg) | ![Mobile](src/images/preview-mobile.jpg) |
-
----
-
 ## 🛠 Teknoloji Stack
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
